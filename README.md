@@ -31,14 +31,19 @@ Navigate to the `test_agent.ipynb` notebook and follow these steps:
 - Run the **first two cells** under the **"Environment Setup"** header to import the necessary Python files.
 >**Note:** Use python kernel 3.12 or above for running the cells.
 
-### **Experiments:**
+### 💻 **Experiments:**
 Run the **six cells** under the **"Experiments"** section to execute the experiments across the LLMs. The six cells correspond to:
-- Cell #1: GPT-4o Tomcat PaP
-- Cell #2: GPT-4o Tomcat Fs-CoT
-- Cell #3: Gemma-3-27B Tomcat PaP
-- Cell #4: Gemma-3-27B Tomcat Fs-CoT
-- Cell #5: DeepSeek-R1 Tomcat PaP
-- Cell #6: DeepSeek-R1 Tomcat Fs-CoT
+
+```
+| Cell # | Model         | Prompting Technique |
+|--------|---------------|---------------------|
+|   1    | GPT-4o        | PaP                 |
+|   2    | GPT-4o        | Fs-CoT              |
+|   3    | Gemma-3-27B   | PaP                 |
+|   4    | Gemma-3-27B   | Fs-CoT              |
+|   5    | DeepSeek-R1   | PaP                 |
+|   6    | DeepSeek-R1   | Fs-CoT              |
+```
   
   The results of the experiments will automatically be saved in:
   - `ToM_PaP-dataset.csv` (for experiments ***using PaP***)
