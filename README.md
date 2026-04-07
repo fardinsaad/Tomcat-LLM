@@ -1,6 +1,6 @@
 # Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration
 
-This repository accompanies our paper introducing  a novel Theory of Mind (ToM) benchmark called _Instruction Inference_. We present **Tomcat**, an LLM-based agent, designed to collaborate with a principal (_simulated human_) on this _Instruction Inference_ task by interpreting ambiguous instructions in a dynamic, goal-driven environment. Unlike existing benchmarks focused on static vignettes or social narratives, our setup requires models to interpret directives (either clear or unclear), infer latent intent, and plan and execute actions that align with the principal's intent. 
+This repository accompanies our paper introducing  a novel Theory of Mind (ToM) benchmark called _Instruction Inference_. We present **Tomcat**, an LLM-based agent, designed to collaborate with a principal (_simulated human_) on this Instruction Inference task by interpreting clear, incomplete or ambiguous instructions in a dynamic, goal-driven environment. Unlike existing benchmarks focused on static vignettes or social narratives, our setup requires models to interpret directives (either clear or unclear), infer latent intent, and plan and execute actions that align with the principal's intent. 
 We develop and evaluate two prompting variants of Tomcat:
 
 - **Commonsense Prompt (CP):**  
