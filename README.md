@@ -27,13 +27,23 @@ This repository contains:
 - `test_agent.ipynb`: Contains code for running the experiments.
 >**Note:** The repo also contains the ToM task (Instruction Inference ToM task.pdf), results of the experiments (Results.xlsx), dataset, and csv files for storing the responses of the Tomcat variants (ToM_CP/FsCoT-dataset.csv) across the LLMs.
 
-## 1. Configure the Environment
+## 1. Install Dependencies
+
+Install all required packages using the `requirements.txt` file at the root of the repository:
+
+```bash
+pip install -r requirements.txt
+```
+
+> **Note:** Python 3.12 or above is required.
+
+## 2. Configure the Environment
 
 Before running the code, **ensure you set up your `.env` file** with ***your GPT-4o, DeepSeek-R1, Gemma-3-27B API keys***:
 
 Make sure to replace `'Your API Key'` with your **actual API keys**.
 
-## 2. Running the Code
+## 3. Running the Code
 
 Navigate to the `test_agent.ipynb` notebook and follow these steps:
 
@@ -62,11 +72,11 @@ Run the **six cells** under the **"Experiments"** section to execute the experim
 ### **Dataset Information:**
 - The `dataset/problems` folder contains grid configurations. The code will automatically import the dataset required for the experiments.
 
-## 3. Running Individual Commands
+## 4. Running Individual Commands
 
 - For running individual commands, use the cell under the **"Individual Instruction"** header. 
 - You can load different grid configurations and modify the instructions to test various cases and behaviors.
 
 ---
 
->**Note:** Make sure all necessary dependencies are installed and configured as per the project requirements. For instance, numpy, panda, openai, backoff, and python-dotenv.
+>**Note:** Make sure all necessary dependencies are installed via `pip install -r requirements.txt` before running any cells.
