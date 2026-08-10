@@ -1,0 +1,23 @@
+# Requirements for Tomcat-LLM
+# Install with: pip install -r requirements.txt
+# Python 3.12 required
+
+# ── Core data / numerics ──────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ── LLM API clients ───────────────────────────────────────────────────────────
+openai>=2.0.0
+google-generativeai>=0.8.0
+google-genai>=1.0.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+backoff>=2.2.0
+
+# ── Jupyter / notebook environment ────────────────────────────────────────────
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+tqdm>=4.65.0
