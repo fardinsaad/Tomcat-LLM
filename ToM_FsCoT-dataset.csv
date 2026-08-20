@@ -96,11 +96,11 @@ Actions:
 3) Pass: blue_key and red_key to the human at (3,6).
 4) Unlock: human unlocks the Blue_door at (3,9) and Red_Door at (2,11).
 5) Retrieve: human retrieves the gem at (0,11)."
-"The human moves upward from their current position at (6,4) to (4,4), then proceeds to move left, providing the instruction upon reaching (4,2). After giving the instruction, the human continues their movement.",Can you go and unlock that door?,12.txt,Clear,"I believe the human moved to (4, 2) to collect the gem at (0, 0). The most optimal path to any other gem involves stopping earlier at the blue door. The gem is located beyond a red door at (3, 0). To retrieve the gem the human needs to have that red door unlocked.","I will pick up the red key at (1, 0) from my position at (2, 2). Once I collect the red key, I will move to the red door at (3, 0) and unlock the red door, allowing the human to collect the gem.
+"The human moves upward from their current position at (6,4) to (4,4), then proceeds to move left, providing the instruction upon reaching (4,2). After giving the instruction, the human continues their movement.",Can you go and unlock that door?,12.txt,Clear,"I believe the human moved to (4, 2) to collect the gem at (0, 0) or (2,8). The most optimal path to any other gem involves stopping earlier at the blue door. The gem is located beyond a red door at (3, 0) or (4,8). To retrieve the gem the human needs to have that red door unlocked.","I will pick up the red key at (1, 0) from my position at (2, 2). Once I collect the red key, I will move to the red door at (3, 0) or (4, 8) and unlock the red door, allowing the human to collect the gem.
 Actions:
 1) Collect: red_key at (1,0).
-2) Unlock: Red_door at (3,0).
-3) Retrieve: human retrieves the gem at (0,0)."
+2) Unlock: Red_door at (3,0) or (4,8).
+3) Retrieve: human retrieves the gem at (0,0) or (2,8)."
 "The human moves down from their current position at (4,4) to (5,4), and then proceeds to move left to collect the red key at (5,0). After collecting the key, they continue moving right until they reach (5,2), where they provide the instruction before continuing their movement.",Can you help me unlock the blue door there?,13.txt,Clear,"I believe the human picked up the red key and moved to the blue door at (5, 2) and asked me to unlock blue door, in order to collect the gem at (0, 0) located beyond both the blue and red doors at (2, 4) and (2, 0) respectively. To retrieve the gem the human needs to pass both these doors.","Human requested to unlock blue door at (2, 4), I will collect the blue key located at (0,8) to unlock the blue door blocking the path to the gem at (0, 0). Once the blue key is collected, I will unlock the blue door.
 Actions:
 1) Collect: blue_key at (0,8).
